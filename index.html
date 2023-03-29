@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey form</title>
+  </head>
+  <body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">
+      Thank for taking the time to help us improve the platform
+    </p>
+    <form id="survey-form">
+      <label for=="name" id="name-label" >Name</label>
+      <input id="name" type="text" required placeholder="Name" />
+      <hr>
+      <label for=="email" id="email-label" ty >Email</label>
+      <input id="email"  required placeholder="Email"/>
+      <hr>
+      <label for=="number" id="number-label" >Number</label>
+      <input id="number" min="5" max="100"  require placeholder="Number" />
+      
+      <hr>
+      <label for="dropdown">Cake or coffe: </label>
+      <select id="dropdown">
+        <option>Cake</option>
+        <option>Coffe</option>
+      </select>
+      <hr>
+      <label >Eggs or milk: </label>
+      <input type="radio" name="group" id="mex" value="0">
+      <label for="mex">Eegg</label>
+      
+      <input type="radio" name="group" id="milk" value="1">
+      <label for="milk">Milk</label>
+      <hr>
+      <label> Pankake or sandwich: </label>
+      <input type="checkbox" value="0" id="pancake">
+      <label for="pancake">pancake</label>
+      <input type="checkbox" value="1" id="sandwich">
+      <label for="sandwich">sandwich</label>
+
+      <hr>
+      <textarea>
+        Please enter youe additional comments here:
+      </textarea>
+      <hr>
+      <input type="submit">
+    </form>
+  </body>
+</html>
